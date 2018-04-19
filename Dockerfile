@@ -5,7 +5,7 @@ MAINTAINER Evan Sosenko <razorx@evansosenko.com>
 RUN mkdir -p /srv
 RUN apk add --no-cache ruby
 
-ENV FAKES3_VERSION 1.2.0
+ENV FAKES3_VERSION 1.2.1
 
 RUN gem install --no-document fakes3 -v ${FAKES3_VERSION}
 
