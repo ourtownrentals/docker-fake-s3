@@ -23,6 +23,21 @@ Pull with
 $ docker pull ourtownrentals/fake-s3
 ```
 
+Run with
+
+```
+$ docker run ourtownrentals/fake-s3
+```
+
+You can pass any options to fake-s3,
+including overriding the default port, e.g.,
+
+```
+$ docker run ourtownrentals/fake-s3 -p 8080
+```
+
+By default, runs on port 80 and serves from `/srv`.
+
 [Docker]: https://www.docker.com/
 [ourtownrentals/fake-s3]: https://hub.docker.com/r/ourtownrentals/fake-s3/
 
