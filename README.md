@@ -2,17 +2,12 @@
 
 [![GitHub license](https://img.shields.io/github/license/ourtownrentals/docker-fake-s3.svg)](./LICENSE.txt)
 
-## Description
+Custom [Docker] image for [Fake S3].
 
-Custom docker image for [Fake S3].
-
+[Docker]: https://www.docker.com/
 [Fake S3]: https://github.com/jubos/fake-s3
 
 ## Usage
-
-### Requirements
-
-- [Docker].
 
 The images are built and hosted automatically on Docker Hub
 at [ourtownrentals/fake-s3].
@@ -38,7 +33,6 @@ $ docker run ourtownrentals/fake-s3 -p 8080
 
 By default, runs on port 80 and serves from `/srv`.
 
-[Docker]: https://www.docker.com/
 [ourtownrentals/fake-s3]: https://hub.docker.com/r/ourtownrentals/fake-s3/
 
 ## Development and Testing
