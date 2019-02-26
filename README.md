@@ -21,7 +21,7 @@ $ docker pull ourtownrentals/fake-s3
 Run with
 
 ```
-$ docker run ourtownrentals/fake-s3
+$ docker run ourtownrentals/fake-s3 --license YOUR_LICENSE_KEY
 ```
 
 You can pass any options to fake-s3,
