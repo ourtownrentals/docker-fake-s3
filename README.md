@@ -74,6 +74,13 @@ To submit a patch:
 
 This Docker image is licensed under the MIT license.
 
+## Fake S3 License
+
+Fake S3 license details depend on use-case.
+
+Additional license information for Fake S3 may be found at
+https://github.com/jubos/fake-s3.
+
 ## Warranty
 
 This software is provided by the copyright holders and contributors "as is" and
