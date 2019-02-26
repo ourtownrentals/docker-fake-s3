@@ -76,7 +76,7 @@ This Docker image is licensed under the MIT license.
 
 ## Fake S3 License
 
-Fake S3 license details depend on use-case.
+Fake S3 license cost depends on use-case.
 
 Additional license information for Fake S3 may be found at
 https://github.com/jubos/fake-s3.
